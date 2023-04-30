@@ -1,5 +1,5 @@
 # 4WayTrafficLightIntersection
-This project was created in the C language using FreeRTOS.
+This project was created in the C++ language using FreeRTOS.
 It includes a 4 way traffic light intersection with crosswalk capability, emergency vehicle detection, and the ability to detect congested traffic in a certain direction. Which in turn prolongs the green light in that direction and reflects the time given to the pedestrians in crossing in that direction.
 This code uses an Arduino Mega 2560 R3, 5 pushbuttons, a piezo buzzer, 4 Traffic Light LEDs, 2 16x2 I2C LCD Displays, 1 20x4 I2C LCD Display and Jumper wires.
 Unfortunately, there is no circuit diagram for this project however I do not believe it is too complicated to recreate in your own vision, just remember to update the pin declarations for each component in the code.
