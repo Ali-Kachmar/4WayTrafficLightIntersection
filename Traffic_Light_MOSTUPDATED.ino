@@ -1,7 +1,6 @@
 /*
- * This code is for ECE 5367 with Dr. Harry Le. 
- * Written by Ali Kachmar, Jake Gonzalez, and Chandler Pickett. 
- * In this code, FreeRTOS tasks are implemented using priority scheduling with the help of semaphores.
+ * Written by ECE students at the University of Houston
+ * In this code, FreeRTOS tasks are implemented using semaphores.
  * This code mimicks a real life 4 way intersection with priority traffic for emergency vehicles, displaying a count down timer and notifying vehicles when it is safe to continue driving.
  * Furthermore, this code implements the ability for pedestrian traffic requests, in both directions (N/S and E/W) through task scheduling utilizing pushbuttons. 
  * This task, when ran, also displays a countdown timer notifiying the pedestrian of the remaining time to cross before traffic begins to flow once again.
